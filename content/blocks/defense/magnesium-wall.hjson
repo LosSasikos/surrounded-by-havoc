@@ -1,0 +1,37 @@
+type: Wall
+health: 500
+size: 1
+requirements: [
+  magnesium/10
+]
+destroyBullet: {
+  type: ExplosionBulletType
+  splashDamage: 30
+  splashDamageRadius: 16
+  fragBullets: 8
+  fragLifeMin: 0.1
+  fragLifeMax: 1.5
+  fragSpread: 10
+  fragBullet: {
+    type: BasicBulletType
+    createChance: 0.5
+    width: 4
+    height: 4
+    damage: 5
+    lifetime: 10
+    speed: 3
+    drag: 0.01
+    makeFire: true
+    incendAmount: 2
+    incendSpread: 4
+    incendChance: 0.75
+    pierceArmor: true
+    pierceBuilding: true
+    buildingDamageMultiplier: 10
+    frontColor: "DFC1EF"
+    backColor: "A77FD8"
+    spin: 5
+  }
+}
+research: zirconium-wall
+category: defense

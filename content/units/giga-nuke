@@ -1,0 +1,63 @@
+type: missile
+template: MissileUnitType
+health: 500000000
+flying: true
+speed: 7
+missileAccelTime: 120
+lifetime: 10000
+rotateSpeed: 0.01
+hitSize: 40
+range: 120
+targetable: false
+hidden: false
+weapons: [
+  {
+    reload: 1
+    shootOnDeath: true
+    mirror: false
+    shootCone: 180
+    shake: 20
+    bullet: {
+      type: ExplosionBulletType
+      status: melting
+      statusDuration: 300
+      splashDamage: 1500
+      splashDamageRadius: 360
+      splashDamagePierce: true
+      collidesTeam: true
+      makeFire: true
+      shootEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: ExplosionEffect
+            waveLife: 160
+            waveRad: 360
+            waveRadBase: 16
+            smokeSize: 32
+            smokes: 10
+            lifetime: 120
+          }
+          {
+            type: ExplosionEffect
+            waveLife: 30
+            waveRad: 40
+            waveRadBase: 16
+            smokeSize: 10
+            smokes: 5
+            lifetime: 360
+          }
+        ]
+      }
+      fragBullets: 6
+      fragSpread: 60
+      fragLifeMin: 0.5
+      fragBullet: {
+        type: BombBulletType
+        splashDamageRadius: 30
+        splashDamage: 1000
+        incendAmount: 30
+      }
+    }
+  }
+]

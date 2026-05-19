@@ -1,0 +1,10 @@
+type: Router
+health: 85
+speed: 4
+itemCapacity: 6
+requirements: [
+  zirconium/3
+]
+research: heavy-crossing
+category: distribution
+squareSprite: false

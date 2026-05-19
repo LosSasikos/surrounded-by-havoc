@@ -1,0 +1,96 @@
+type: mech
+speed: 0.6
+hitSize: 30
+rotateSpeed: 2.5
+health: 26000
+armor: 26
+drownTimeMultiplier: 1.6
+mechStepParticles: true
+mechFrontSway: 1.9
+mechSideSway: 0.6
+stepShake: 0.8
+stepSound: mechStepHeavy
+stepSoundPitch: 0.9
+stepSoundVolume: 0.45
+parts: [
+  {
+    type: RegionPart
+    suffix: "-heat"
+    progress: warmup
+    blending: additive
+    color: "0083FF00"
+    colorTo: "0083FF"
+    outline: false
+  }
+]
+weapons: [
+  {
+    name: "frosted-reign-big-gun"
+    top: false
+    layerOffset: -0.0001
+    x: 18.75
+    y: 0.75
+    shootY: 10
+    reload: 36
+    recoil: 5
+    shake: 3
+    ejectEffect: casing4
+    shootSound: shootReign
+    bullet: {
+      type: BasicBulletType
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 6
+      blockArmorMultiplier: -1
+      width: 14
+      height: 24
+      lifetime: 30
+      speed: 6.5
+      damage: 80
+      splashDamage: 24
+      splashDamageRadius: 16
+      status: blasted
+      hitEffect: blastExplosion
+      fragBullets: 4
+      fragAngle: 20
+      fragBullet: {
+        type: BasicBulletType
+        damage: 2
+        speed: 3
+        drag: 0.01
+        lifetime: 10
+        sticky: true
+        stickyExtraLifetime: 60
+        suppressionRange: 140
+      }
+    }
+  }
+  {
+    name: "frosted-reign-what-da-smool"
+    x: 8.25
+    y: -4.25
+    shootY: 3
+    reload: 3
+    alternate: false
+    rotate: true
+    shootCone: 50
+    recoil: 0
+    shootEffect: shootLiquid
+    shootSound: none
+    activeSound: loopSpray
+    bullet: {
+      type: LiquidBulletType
+      liquid: cryofluid
+      orbSize: 2
+      damage: 8
+      lifetime: 60
+      speed: 3.25
+      drag: 0.01
+      knockback: 0.5
+      status: freezing
+    }
+  }
+]
+outlineColor: "3C3D44"
+mechLegColor: "3C3D44"
+immunities: [frostbite, freezing]

@@ -1,0 +1,10 @@
+buildSpeedMultiplier: 0
+speedMultiplier: 0
+disarm: true
+applyEffect: {
+  type: SoundEffect
+  sound: horror
+  minPitch: 1.0
+  maxPitch: 0.8
+  effect: none
+}

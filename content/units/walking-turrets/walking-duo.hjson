@@ -1,0 +1,64 @@
+type: mech
+speed: 0.4
+hitSize: 8
+rotateSpeed: 5
+baseRotateSpeed: 2.5
+health: 250
+armor: 20
+faceTarget: false
+drawCell: false
+outlineColor: "3C3D44"
+mechLegColor: "3C3D44"
+weapons: [
+  {
+    name: "walking-duo-turret"
+    x: 0
+    y: 0
+    mirror: false
+    top: true
+    reload: 20
+    recoil: 0.5
+    recoils: 2
+    rotate: true
+    rotateSpeed: 10
+    inaccuracy: 2
+    shoot: {
+      type: ShootAlternate
+      spread: 2.5 
+    }
+    shootY: 2.5
+    shootSound: shootDuo
+    parts: [
+      {
+        type: RegionPart
+        suffix: "-barrel-r"
+        progress: recoil
+        recoilIndex: 0
+        moveY: -1
+        under: true
+      }
+      {
+        type: RegionPart
+        suffix: "-barrel-l"
+        progress: recoil
+        recoilIndex: 1
+        moveY: -1
+        under: true
+      }
+    ]
+    bullet: {
+      type: BasicBulletType
+      damage: 10
+      width: 7
+      height: 9
+      speed: 2.5
+      lifetime: 60
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+      hitColor: "D39169"
+      backColor: "D39169"
+      trailColor: "D39169"
+      frontColor: "EAC1A8"
+    }
+  }
+]

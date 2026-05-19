@@ -1,0 +1,53 @@
+alwaysUnlocked: false
+orbitSpacing: 0.2
+orbitRadius: 4
+radius: 0.5
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.03
+accessible: false
+updateLighting: false
+bloom: false
+visible: false
+atmosphereColor: a83b44
+iconColor: a83b44
+hasAtmosphere: true
+parent: havoc
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowWaves: false
+prebuildBase: false
+mesh: [
+ {
+    // red
+    type: NoiseMesh
+    planet: mars
+    divisions: 5
+    seed: 40
+    radius: 0.5
+    color1: ee2240
+    color2: 782537
+    octaves: 5.5
+    persistence: 1.1
+    scale: 0.60
+    mag: 0.7
+  }
+]
+cloudMesh: [
+  {
+    type: HexSkyMesh
+    planet: mars
+    speed: 0.4
+    radius: 0.1
+    divisions: 6
+    color: bdd3d8e0
+    octaves: 3
+    persistence: 0.3
+    scl: 0.3
+    thresh: 0.3
+  }
+]

@@ -1,0 +1,13 @@
+intervalDamageTime: 60
+intervalDamage: 5
+intervalDamagePierce: true
+healthMultiplier: 0.9
+speedMultiplier: 0.6
+reloadMultiplier: 0.75
+buildSpeedMultiplier: 0.75
+permanent: false
+transitionDamage: 24
+affinities: [blasted]
+opposites: [melting, burning]
+effect: freezing
+hideDatabase: true

@@ -1,0 +1,40 @@
+speed: 3.5
+accel: 0.2
+drag: 0.2
+rotateSpeed: 13
+health: 150
+armor: 5
+circleTarget: true
+buildSpeed: 1.25
+buildBeamOffset: 2.25
+itemCapacity: 50
+engineOffset: 1.5
+trailLength: 8
+lightRadius: 32
+flying: true
+lowAltitude: true
+mineTier: 2
+mineSpeed: 0.75
+weapons: [
+  {
+    name: "pitch-sneaky-weapon"
+    x: 0
+    y: 0
+    mirror: false
+    display: false
+    reload: 40
+    recoil: 0
+    shootY: 2.25
+    shootSound: shootMissile
+    shoot: {
+      type: ShootHelix
+    }
+    bullet: {
+      type: MissileBulletType
+      damage: 5
+      speed: 2
+      lifetime: 40
+    }
+  }
+]
+outlineColor: "3C3D44"

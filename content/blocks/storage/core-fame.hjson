@@ -1,0 +1,16 @@
+type: CoreBlock
+health: 2500
+size: 4
+armor: 12
+itemCapacity: 3000
+unitCapModifier: 14
+unitType: pitch
+buildTime: 660
+requirements: [
+  zirconium/2800
+  magnesium/2100
+]
+research: core-glory
+category: effect
+squareSprite: false
+landMusic: "landingFunny"

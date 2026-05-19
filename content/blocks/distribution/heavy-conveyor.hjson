@@ -1,0 +1,13 @@
+type: Conveyor
+health: 70
+speed: 0.045
+displayedSpeed: 7
+itemCapacity: 3
+requirements: [
+  zirconium/1
+]
+research: core-glory
+researchCost: [
+  zirconium/5
+]
+category: distribution

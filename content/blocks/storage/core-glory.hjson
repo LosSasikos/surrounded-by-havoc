@@ -1,0 +1,23 @@
+type: CoreBlock
+isFirstTier: true
+health: 1400
+size: 3
+armor: 8
+itemCapacity: 1500
+unitCapModifier: 7
+unitType: pitch
+buildTime: 600
+requirements: [
+  zirconium/1300
+  magnesium/1000
+]
+research: {
+  root: true
+  name: Havoc
+  requiresUnlock: false
+  planet: havoc
+}
+alwaysUnlocked: true
+category: effect
+squareSprite: false
+landMusic: "landingFunny"

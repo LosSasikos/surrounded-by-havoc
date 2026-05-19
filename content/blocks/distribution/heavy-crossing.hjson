@@ -1,0 +1,9 @@
+type: Junction
+health: 85
+speed: 4
+itemCapacity: 6
+requirements: [
+  zirconium/2
+]
+research: heavy-conveyor
+category: distribution

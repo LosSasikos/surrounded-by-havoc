@@ -1,0 +1,30 @@
+name: "Blizzard"
+type: ParticleWeather
+
+particleRegion: "chaosss-snowflake"
+randomParticleRotation: true
+
+sizeMax: 32
+sizeMin: 16
+minAlpha: 0.5
+maxAplha: 1.0
+yspeed: -16
+xspeed: 8
+density: 1200
+
+opacityMultiplier: 1.1
+
+drawNoise: true
+noiseScale: 1500
+noiseLayers: 2
+noiseLayerAlphaM: 0.4
+noiseLayerSpeedM: 0.8
+
+attrs: {
+  light: -1
+}
+
+status: frostbite
+statusDuration: 10
+
+sound: windHowl

@@ -1,0 +1,9 @@
+damageMultiplier: 1.5
+permanent: true
+applyEffect: {
+  type: SoundEffect
+  sound: eliteSpawn
+  minPitch: 0.8
+  maxPitch: 0.8
+  effect: none
+}

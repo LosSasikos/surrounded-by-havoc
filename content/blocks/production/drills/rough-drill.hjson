@@ -1,0 +1,15 @@
+type: Drill
+health: 240
+size: 2
+tier: 2
+drillTime: 540
+hardnessDrillMultiplier: 60
+requirements: [
+  zirconium/30
+]
+research: core-glory
+researchCost: [
+  zirconium/5
+]
+category: production
+squareSprite: false

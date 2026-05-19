@@ -1,0 +1,3 @@
+name: "Grass Bed"
+type: StaticWall
+autotile: true

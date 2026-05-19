@@ -1,0 +1,96 @@
+type: ItemTurret
+health: 340
+size: 1
+range: 120
+trackingRange: 160
+reload: 15
+maxAmmo: 32
+inaccuracy: 2
+shootCone: 4
+ammoPerShot: 1
+shootY: 2.5
+shootSound: shootSegment
+ammoUseEffect: casing1
+drawer: {
+	type: DrawTurret
+	basePrefix: "wtheme-"
+	parts: [
+    {
+      type: RegionPart
+      suffix: "-wings"
+      x: 0
+      y: 0
+      moveY: -1
+    }
+    {
+      type: RegionPart
+      suffix: "-tail"
+      x: 0
+      y: 0
+      moves: [
+        {
+          progress: warmup
+          y: 1
+        }
+        {
+          progress: recoil
+          y: -0.5
+        }
+      ]
+    }
+	]
+}
+ammoTypes: {
+  zirconium: {
+    type: BasicBulletType
+    height: 4
+    width: 3
+    damage: 7.5
+    lifetime: 30
+    speed: 4
+    pierce: true
+    pierceCap: 2
+    frontColor: "F8E8CD"
+    backColor: "BDB19A"
+    hitColor: "F8E8CD"
+    trailColor: "BDB19A"
+    trailLength: 5
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    inaccuracy: 6
+  }
+  silicon: {
+    type: BasicBulletType
+    height: 8
+    width: 4
+    damage: 15
+    lifetime: 40
+    speed: 3
+    pierce: true
+    pierceCap: 3
+    frontColor: "F8E8CD"
+    backColor: "BDB19A"
+    hitColor: "F8E8CD"
+    trailColor: "BDB19A"
+    trailLength: 7
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    armorMultiplier: 0.75
+  }
+}
+requirements: [
+  zirconium/50
+]
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+category: turret
+outlineColor: "3C3D44"
+squareSprite: false
+
+research: core-glory
+researchCost: [
+  zirconium/25
+]

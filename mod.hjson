@@ -1,0 +1,39 @@
+name: "chaosss"
+displayName: "Absolutely Chaos!"
+description: "Little crawlaah."
+author: "Losikos"
+version: 0.1
+minGameVersion: 150
+hidden: false
+
+contentOrder: [
+  blizzard
+
+  ice-crystal
+  ice-crystal-large
+
+  heavy-conveyor
+  heavy-crossing
+  heavy-router
+  core-glory
+  core-fame
+  core-grace
+
+  building-boost
+  bloodzerked
+  calm-mind
+  frostbite
+
+  elite-health-up
+  elite-damage-up
+  elite-speed-up
+  elite-reload-up
+  elite
+
+  champion-health-up
+  champion-damage-up
+  champion-speed-up
+  champion-reload-up
+
+  pitch
+]
