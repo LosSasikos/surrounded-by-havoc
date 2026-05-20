@@ -1,7 +1,7 @@
 name: "Blizzard"
 type: ParticleWeather
 
-particleRegion: "chaosss-snowflake"
+particleRegion: "los-havoc-snowflake"
 randomParticleRotation: true
 
 sizeMax: 32

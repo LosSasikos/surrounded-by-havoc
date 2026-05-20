@@ -1,4 +1,4 @@
-name: "surrounded-by-havoc"
+name: "los-havoc"
 displayName: "Absolutely Chaos!"
 description: "Abobus"
 author: "Losikos"
@@ -8,6 +8,10 @@ hidden: false
 
 contentOrder: [
   blizzard
+
+  zirconium
+  magnesium
+  furrium
 
   ice-crystal
   ice-crystal-large
@@ -23,6 +27,7 @@ contentOrder: [
   bloodzerked
   calm-mind
   frostbite
+  unspeakable-horror
 
   elite-health-up
   elite-damage-up
