@@ -1,9 +1,8 @@
-type: Drill
+type: BurstDrill
 health: 240
 size: 2
 tier: 2
-drillTime: 540
-hardnessDrillMultiplier: 60
+drillTime: 360
 requirements: [
   zirconium/30
 ]
@@ -11,5 +10,8 @@ research: core-glory
 researchCost: [
   zirconium/5
 ]
+arrows: 4
+arrowColor: "F4DFB8"
+glowColor: "F4DFB8"
 category: production
 squareSprite: false
