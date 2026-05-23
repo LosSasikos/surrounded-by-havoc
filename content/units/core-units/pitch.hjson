@@ -14,7 +14,7 @@ lightRadius: 32
 flying: true
 lowAltitude: true
 mineTier: 2
-mineSpeed: 4
+mineSpeed: 5
 weapons: [
   {
     name: "pitch-sneaky-weapon"
@@ -22,21 +22,30 @@ weapons: [
     y: 0
     mirror: false
     display: false
-    reload: 30
+    reload: 45
     recoil: 0
+    shoot: {
+      type: ShootPattern
+      shots: 3
+      shotDelay: 5
+    }
     shootY: 2.25
     shootSound: shootMissile
     bullet: {
-      type: MissileBulletType
-      recoil: 2
+      type: BasicBulletType
+      width: 4
+      height: 4
+      recoil: 0.5
       damage: 5
-      speed: 2
-      lifetime: 40
-      weaveMag: 2
+      speed: 3
+      lifetime: 15
       targetBlocks: false
       buildingDamageMultiplier: 0
+      weaveScale: 5
+      weaveMag: 5
       homingPower: 1
       homingRange: 32
+      trailLength: 6
     }
   }
 ]
