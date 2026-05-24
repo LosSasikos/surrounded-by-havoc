@@ -1,6 +1,6 @@
 speed: 3.5
-accel: 0.2
-drag: 0.2
+accel: 0.05
+drag: 0.05
 rotateSpeed: 13
 health: 150
 armor: 5
@@ -22,7 +22,7 @@ weapons: [
     y: 0
     mirror: false
     display: false
-    reload: 45
+    reload: 60
     recoil: 0
     shoot: {
       type: ShootPattern
@@ -38,15 +38,17 @@ weapons: [
       recoil: 0.5
       damage: 5
       speed: 3
-      lifetime: 15
+      lifetime: 25
       targetBlocks: false
       buildingDamageMultiplier: 0
       weaveScale: 5
-      weaveMag: 5
+      weaveMag: 7
       homingPower: 1
-      homingRange: 32
+      homingRange: 80
       trailLength: 6
     }
   }
 ]
 outlineColor: "3C3D44"
+deathSound: fahhh
+deathSoundVolume: 0.5

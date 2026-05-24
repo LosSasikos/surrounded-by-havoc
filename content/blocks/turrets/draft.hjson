@@ -79,7 +79,7 @@ ammoTypes: {
   }
 }
 requirements: [
-  zirconium/50
+  zirconium/40
 ]
 consumes: {
   coolant: {
@@ -89,7 +89,6 @@ consumes: {
 category: turret
 outlineColor: "3C3D44"
 squareSprite: false
-
 research: core-glory
 researchCost: [
   zirconium/25

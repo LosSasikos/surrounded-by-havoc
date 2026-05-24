@@ -21,3 +21,4 @@ alwaysUnlocked: true
 category: effect
 squareSprite: false
 landMusic: "landingFunny"
+destroySound: fahhh
