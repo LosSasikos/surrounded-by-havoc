@@ -1,10 +1,10 @@
 type: CoreBlock
 isFirstTier: true
-health: 1400
+health: 1800
 size: 3
 armor: 8
 itemCapacity: 1500
-unitCapModifier: 7
+unitCapModifier: 8
 unitType: pitch
 buildTime: 600
 requirements: [

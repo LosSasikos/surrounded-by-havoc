@@ -1,0 +1,32 @@
+type: mech
+speed: 0.7
+hitSize: 8
+rotateSpeed: 3
+health: 200
+armor: 5
+weapons: [
+  {
+    name: "lash-gun"
+    top: false
+    x: 4.25
+    y: 0
+    shootY: 1
+    reload: 15
+    recoil: 1.5
+    rotate: true
+    rotateSpeed: 1.5
+    rotationLimit: 45
+    inaccuracy: 2
+    bullet: {
+      type: BasicBulletType
+      damage: 10
+      speed: 3
+      lifetime: 35
+      knockback: 0.1
+    }
+  }
+]
+outlineColor: "3C3D44"
+mechLegColor: "3C3D44"
+deathSound: metalPipe
+deathSoundVolume: 0.4

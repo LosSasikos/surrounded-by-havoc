@@ -2,7 +2,7 @@ type: BurstDrill
 health: 240
 size: 2
 tier: 2
-drillTime: 480
+drillTime: 960
 requirements: [
   zirconium/30
 ]

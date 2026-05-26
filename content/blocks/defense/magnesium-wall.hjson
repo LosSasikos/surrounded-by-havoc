@@ -1,5 +1,5 @@
 type: Wall
-health: 500
+health: 300
 size: 1
 requirements: [
   magnesium/10
@@ -10,7 +10,7 @@ destroyBullet: {
   splashDamageRadius: 16
   fragBullets: 8
   fragLifeMin: 0.1
-  fragLifeMax: 1.5
+  fragLifeMax: 3
   fragSpread: 10
   fragBullet: {
     type: BasicBulletType

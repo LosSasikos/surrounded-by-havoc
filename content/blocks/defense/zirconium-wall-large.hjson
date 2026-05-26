@@ -1,12 +1,12 @@
 type: Wall
-health: 2400
+health: 1600
 armor: 4
 size: 2
 requirements: [
-  zirconium/20
+  zirconium/16
 ]
 research: zirconium-wall
 researchCost: [
-  zirconium/60
+  zirconium/32
 ]
 category: defense
